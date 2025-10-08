@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFB;
+}
+
+.auth_inner_container {
+    background: #fff
+}
+
+.form_svg {
+    padding: 0.2rem;
+}
+
+.form_sumbit {
+    background-color: #387ed1;
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.form_sumbit:hover {
+    background-color: #555;
+}
+
+.acc-auth-link {
+    color: #387ed1;
+    text-decoration: none;
+}
+
+.acc-auth-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.google-btn {
+    border: none;
+    background-color: none;
+    border-radius: 0.25rem;
+}
+
+.google-btn:hover {
+    color: white;
+    background-color: #555;
+}
+
+.google-btn img {
+    width: 2.5rem;
+}
