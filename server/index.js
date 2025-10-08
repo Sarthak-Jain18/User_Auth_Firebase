@@ -10,7 +10,10 @@ admin.initializeApp({
 });
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: ["https://user-auth-firebase-pi.vercel.app"],
+  credentials: true
+}));
 app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URI)
